@@ -1,0 +1,24 @@
+# AsciiDoc mode for CodeMirror
+
+This repository contains the AsciiDoc mode for CodeMirror.
+
+## Installation
+
+```
+$ npm install codemirror-asciidoc
+```
+
+## Usage
+
+```js
+var cm = ...;
+cm.defineMode('asciidoc', require('codemirror-asciidoc'));
+```
+
+## License
+
+BSD
+
+## Credits
+
+The AsciiDoc mode for CodeMirror was generated from the AsciiDoc mode for Ace.

@@ -1,0 +1,13 @@
+{
+  "name": "codemirror-asciidoc",
+  "version": "1.0.0",
+  "description": "Asciidoc mode for CodeMirror",
+  "homepage": "https://github.com/asciidoctor/codemirror-asciidoc",
+  "main": "lib/asciidoc.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asciidoctor/codemirror-asciidoc.git"
+  },
+  "license": "BSD",
+  "keywords": ["asciidoc", "codemirror"]
+}
