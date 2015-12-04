@@ -21,4 +21,4 @@ BSD
 
 ## Credits
 
-The AsciiDoc mode for CodeMirror was generated from the AsciiDoc mode for Ace.
+The AsciiDoc mode for CodeMirror was generated from the AsciiDoc mode for Ace using the https://github.com/espadrine/ace2cm[ace2cm] project by https://github.com/espadrine[Thaddee Tyl].
