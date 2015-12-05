@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Asciidoc mode for CodeMirror",
   "homepage": "https://github.com/asciidoctor/codemirror-asciidoc",
+  "author": "Harutyun Amirjanyan (https://github.com/nightwing)",
+  "contributors": [
+    "Thomas Kern (https://github.com/nerk)",
+    "Dan Allen (https://github.com/mojavelinux)"
+  ],
   "main": "lib/asciidoc.js",
   "repository": {
     "type": "git",
