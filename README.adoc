@@ -11,8 +11,14 @@ $ npm install codemirror-asciidoc
 ## Usage
 
 ```js
-var cm = ...;
-cm.defineMode('asciidoc', require('codemirror-asciidoc'));
+var codemirror = require("codemirror/lib/codemirror"),
+  codemirror_asciidoc = require("codemirror-asciidoc/lib/asciidoc");
+
+codemirror.fromTextArea(document.getElementById("editor"), {
+  lineNumbers: true,
+  lineWrapping: true,
+  mode: "asciidoc"
+});
 ```
 
 ## License
