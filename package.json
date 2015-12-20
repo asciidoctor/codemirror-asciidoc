@@ -1,6 +1,6 @@
 {
   "name": "codemirror-asciidoc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Asciidoc mode for CodeMirror",
   "homepage": "https://github.com/asciidoctor/codemirror-asciidoc",
   "author": "Harutyun Amirjanyan (https://github.com/nightwing)",
