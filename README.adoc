@@ -8,7 +8,7 @@ This repository contains the AsciiDoc mode for CodeMirror.
 $ npm install codemirror-asciidoc
 ```
 
-## Usage
+## Usage for CM5 with `codemirror-asciidoc@1.x`
 
 ```js
 var codemirror = require("codemirror"),
@@ -19,6 +19,21 @@ codemirror.fromTextArea(document.getElementById("editor"), {
   lineWrapping: true,
   mode: "asciidoc"
 });
+```
+
+## Usage for CM6 with `codemirror-asciidoc@2.x`
+
+```js
+import {StreamLanguage} from "@codemirror/stream-parser"
+import {asciidoc} from "codemirror-asciidoc/lib/asciidoc"
+
+import {EditorView, EditorState, basicSetup} from "@codemirror/basic-setup"
+
+let view = new EditorView({
+  state: EditorState.create({
+    extensions: [basicSetup, StreamLanguage.define(asciidoc)]
+  })
+})
 ```
 
 ## License
